@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Sirius</string>
+
+    <string name="play_screen_description">Dota 2 is a multiplayer online battle arena (MOBA) game which has two teams of five players compete to collectively destroy a large structure defended by the opposing team known as the \"Ancient\", whilst defending their own.</string>
+    <string name="play_screen_count_reviews">70M Reviews</string>
+    <string name="play_screen_rating">4.9</string>
+    <string name="play_screen_review_ratings"><![CDATA[Review & Ratings]]></string>
+    <string name="play_screen_count_reviews_min">70M</string>
+    <string name="play_screen_title">DoTA 2</string>
+    <string name="play_screen_category">text</string>
+    <string name="play_screen_comment_date">February 14, 2019</string>
+    <string name="play_screen_comment_user">Auguste Conte</string>
+    <string name="play_screen_comment">\"Once you start to learn its secrets, there a wild and exciting variety of play here that unmatched, even by its peers.\"</string>
+    <string name="play_screen_button">Install</string>
 </resources>

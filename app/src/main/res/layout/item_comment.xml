@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/play_screen_comment_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="28dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/play_screen_avatar" />
+
+
+    <TextView
+        android:id="@+id/play_screen_comment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/skmodernist_regular"
+        android:text="@string/play_screen_comment_user"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="28dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/play_screen_comment_avatar"
+
+        app:layout_constraintTop_toTopOf="@+id/play_screen_comment_avatar" />
+    <TextView
+        android:id="@+id/play_screen_comment_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/skmodernist_regular"
+        android:text="@string/play_screen_comment_date"
+        android:textColor="@color/white_transparent_dark"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/play_screen_comment_name"
+        app:layout_constraintBottom_toBottomOf="@+id/play_screen_comment_avatar" />
+    <TextView
+        android:id="@+id/play_screen_comment_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        android:fontFamily="@font/skmodernist_regular"
+        android:text="@string/play_screen_comment"
+        android:textColor="@color/gray_light"
+        android:paddingBottom="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play_screen_comment_avatar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
